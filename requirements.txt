@@ -1,0 +1,23 @@
+# requirements.txt
+
+# Estrutura e manipulação de dados
+pandas
+
+# Cálculos numéricos e científicos
+numpy
+scipy
+
+# Geração de gráficos (usado na lógica de plotagem original e pode ser útil no futuro)
+matplotlib
+
+# Framework da Interface Gráfica
+PyQt6
+
+# Temas e Estilos para a Interface
+qt_material
+
+# Motor para a criação de arquivos Excel (.xlsx) com formatação
+XlsxWriter
+
+# Geração de relatórios em PDF
+reportlab
