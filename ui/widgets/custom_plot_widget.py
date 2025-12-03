@@ -68,9 +68,9 @@ class CustomPlotWidget(QWidget):
 
         # Controles de reescalonamento (mapping de intervalo)
         self.line_src_min = QLineEdit(); self.line_src_min.setPlaceholderText("src min (ex: 5)")
-        self.line_src_max = QLineEdit(); self.line_src_max.setPlaceholderText("src max (ex: 6000)")
+        self.line_src_max = QLineEdit(); self.line_src_max.setPlaceholderText("src max (ex: 65535)")
         self.line_tgt_min = QLineEdit(); self.line_tgt_min.setPlaceholderText("tgt min (ex: 1)")
-        self.line_tgt_max = QLineEdit(); self.line_tgt_max.setPlaceholderText("tgt max (ex: 5)")
+        self.line_tgt_max = QLineEdit(); self.line_tgt_max.setPlaceholderText("tgt max (ex: 15)")
         controls_layout.addWidget(QLabel("Source Min:"), 9, 0)
         controls_layout.addWidget(self.line_src_min, 9, 1)
         controls_layout.addWidget(QLabel("Source Max:"), 10, 0)
